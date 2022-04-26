@@ -154,7 +154,7 @@ DialogContainer.propTypes = {
 const buildStyles: StyleBuilder = () =>
   StyleSheet.create({
     centeredView: {
-      marginTop: 22,
+//       marginTop: 22,
     },
     blur: {
       position: "absolute",

@@ -154,7 +154,7 @@ DialogContainer.propTypes = {
 const buildStyles: StyleBuilder = () =>
   StyleSheet.create({
     centeredView: {
-//       marginTop: 22,
+      // marginTop: 22,
     },
     blur: {
       position: "absolute",
@@ -167,7 +167,7 @@ const buildStyles: StyleBuilder = () =>
     content: Platform.select({
       ios: {
         width: 270,
-        //backgroundColor: PlatformColor("systemGray6"),
+        // backgroundColor: PlatformColor("systemGray6"),
         flexDirection: "column",
         borderRadius: 13,
         overflow: "hidden",
